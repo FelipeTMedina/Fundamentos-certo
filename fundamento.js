@@ -11,7 +11,6 @@ const languages = ["javaScript", "PHP", "Python"];
 const user = {email: "lcs@teste.com", passoword: "teste123"};
 
 
-console.log(name);
 console.log(qtd);
 console.log(isAproved);
 console.log(lastNamee);
@@ -72,6 +71,67 @@ list.push('g')
 console.log(list,"push")
 
 console.log(list[list.length-1], "aqui")
+//remove o ultimo elemento da Array
 
 list.pop()
 console.log (list)
+
+//remove o primeiro item de uma array
+list.shift
+console.log(list)
+
+// o ultimo se torna o primeiro
+list.unshift()
+console.log(list, 'unshift');
+
+//start do slice = valor do lenght anterior
+//end = valor do real
+
+console.log(list.slice (2,3))
+
+//objetos
+
+const product = {
+    namess: "regata",
+    price: 49.33,
+    inStock: true,
+    sizes: ['p','m','g'],
+
+
+}
+
+console.log(product.namess);
+console.log(product.price);
+console.log(product.inStock);
+console.log(product.sizes);
+
+product.color ="blue"
+ console.log(product);
+
+ //destructuing
+
+
+
+const { price, sizes} = product
+
+console.log(price,sizes);
+
+//json
+const dog ={
+nomess: 'mel',
+age: 7,
+breed: 'caramelo',
+}
+
+//transforma o arquivo em json
+const jasonp = JSON.stringify(dog)
+const jasoNST = JSON.parse(jasonp)
+
+console.log(jasonp)
+console.log(jasoNST)
+
+ const caqui = 11.6443
+ console.log(caqui.toFixed(1))
+
+
+ 
