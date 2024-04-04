@@ -1,0 +1,27 @@
+
+ :root {
+
+    --primary-bg: #fff;
+    --green-100: #beed80;
+    --green-300: #125a44;
+    
+}
+
+body{
+
+    width: 100%;
+    height: 700px;
+    background-color: var(--green-300);
+}
+
+div {
+    width: calc(100%-900px);
+    height: 200px;
+    border: 1px solid var(--green-100);
+
+}
+
+h1{
+color: var(--green-100);
+
+}

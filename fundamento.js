@@ -134,4 +134,22 @@ console.log(jasoNST)
  console.log(caqui.toFixed(1))
 
 
- 
+ const data =new date ()
+ console.log(data);
+
+
+ //operadores
+
+ const a= 10
+ const b = 15
+
+ //aritimeticos
+
+ const soma = a + b
+ const subt = a -b
+ const div = a / b
+ const mult = a *b
+ const rest = a % b
+
+
+ //incremento decremento
